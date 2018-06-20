@@ -1,0 +1,225 @@
+body{
+	/*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.navpr{
+	
+	background-color: #081d76;
+	
+	
+}
+.navses{
+	height:35px;
+	background-color:#2f2f2f;
+	position: relative; 
+} 
+.footers{
+	background-color:#2f2f2f;
+}
+.sti{
+	color: white;
+	font-size:11px;
+	font-weight: bold;
+	top: 9px;
+    right: 80px;
+}
+#btnlogin{
+	top:10px;
+	position: relative;
+}
+.product-avatar{
+	max-width: 100%;
+}
+img.imglog{
+	position: absolute;
+    width: 140px;
+    top:-20px;
+    left: 97px;
+    z-index: 5;
+}
+.personsize{
+ position: absolute;
+ color: white;
+ right: 60px;
+}
+.navli{
+	background-color: #c61807;
+}
+
+.cfta{
+	padding-top: 28px;
+	padding-bottom: 43px;
+	font: oblique bold 40px cursive;
+}
+.cfta:hover{
+	background-color: none;
+	color: none;
+	/*padding-top: 33px;
+	transform: translate(0px, 10px);*/
+}
+.cfca{
+	padding-top: 28px;
+	padding-bottom: 43px;
+	font: oblique bold 40px cursive;
+}
+.cfca:hover{
+	border-bottom-style: solid;
+	border-bottom-color: blue;
+
+}
+.cfia{
+	left: 150px;
+}
+.cfcard{
+
+	width: 300px;
+	height: 300px;
+	top: 50px;
+	
+}
+.imgcard{
+	width: 450px;
+	height: 200px;
+}
+#cfft{
+	top: ;
+	background-color: #cc1f0e;
+}
+/*///////      Estilos de Modals         //////////*/
+#modalogin{
+	width: 50%;
+}
+/*//////////// Estilo de boton de compras /////////////////*/
+.boton {
+    width:50px;
+    position:relative;
+    line-height:50px;
+    border-radius:25px;
+}
+.mono{
+	position: relative;
+	width:1px;
+	top:0px;
+	right: 20px;
+}
+.n {
+    position:absolute;
+    right:4px;
+    
+    background-color:yellow;
+    line-height:20px;
+    width:18px;
+    height:20px;
+    border-radius:10px;
+}
+
+.tamaño{
+	   
+       margin-left: 1em;
+       width: 200px;
+}
+.auto{
+	position:absolute;
+	left: 930px;
+
+}
+.buscarr{
+	background-color:white;
+	width:;
+	height: 20px; 
+}
+.titulos{
+	position: absolute;;
+	left: 300px;
+	font-weight: bold;
+}
+.slider {
+  width: 900px;
+  margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+
+.dos
+{
+	width:500px; 
+	top: 230px; 
+	right: 100px; 
+	position: absolute; 
+	display:inline-block;
+}
+
+/*--------------estilos--------*/
+* { padding:0px; 
+	margin:0px; }
+
+#menu { 
+	background-repeat:repeat-x;
+	height:50px; 
+	border-bottom:1px solid black; 
+	border-top:1px solid black;
+	box-shadow: 1px 1px 6px black;
+	width:105%; 
+    
+}
+#nav { 
+	list-style:none;
+	color: black;
+
+}
+#nav li {
+	float:left; 
+	background-repeat:no-repeat; 
+}
+#nav li a { 
+	display:block; 
+	padding:13px 35px;  
+	color:black; 
+	font-weight:bold; 
+}
+#nav li a:hover { 
+	/*color:#FFFFFF;*/ 
+}
+/* Submenu */
+#nav ul.submenu { 
+	width:98%;
+	right: 10px;
+    box-shadow: 1px 1px 6px black;
+	position:absolute;
+	display:none;
+	z-index: 1;
+	background-color:white;
+}
+#nav ul.submenu li { 
+	float:none;  
+	width:200px;
+}
+/* Subsubmenu */
+/*---------------------------------------------------------------------------------------*/
+
+#gallery img {
+border: none;
+}
+#gallery_nav {
+padding-top:5px;
+margin-left:150px;
+float:none;
+width: 450px;
+text-align: center;
+}
+#gallery_output {
+float: left;
+width: 900px;
+height: 600px;
+overflow: hidden;
+}
+#gallery_output img {
+display: block;
+margin: 10px auto 0 auto;
+}
+/*///////////////////				imagen       /////////////////////////////*/
